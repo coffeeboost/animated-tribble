@@ -1,0 +1,19 @@
+pip https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/
+
+preparing virtual environment
+pip3 install virtualenv
+python3 -m venv myenv
+source myenv/bin/activate
+installing libraries
+python -m pip install --upgrade pip
+pip install pandas
+pip install jupyterlab
+pip install ipykernel
+pip install scipy
+pip install -r requirements.txt
+opening editor
+python -m ipykernel install --display-name "veryuniquedisplayname2" --user
+jupyter lab
+wrapping up
+pip freeze > requirements.txt
+deactivate
